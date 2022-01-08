@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== VARIABLES CSS =====*/
+:root {
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+}
+body {
+  margin-top: 10px;
+}
+h1 {
+  margin: 0;
+}
+.pdp-price-info {
+  padding: 0 0 10px;
+}
+.pdp-title {
+  color: #282c3f;
+  padding: 0 20px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+}
+.pdp-name {
+  color: #535665;
+  padding: 5px 20px 14px 0;
+  font-size: 20px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.index-overallRatingContainer {
+  width: auto;
+  border-bottom: 1px solid #d4d5d9;
+}
+
+.index-overallRating {
+  margin-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 29px;
+  padding: 8px;
+  border: 1px solid #eaeaec;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282c3f;
+}
+
+.rating-number {
+  font-weight: 900;
+}
+.index-overallRating .index-separator {
+  margin-left: 8px;
+  margin-top: -2px;
+  color: #d4d5d9;
+  width: 1px;
+}
+.index-overallRating .index-ratingsCount {
+  margin-left: 8px;
+  font-weight: 400;
+  color: #535766;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.pdp-discount-container {
+  color: #696e79;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.price-box {
+  margin: 1rem 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 500;
+}
+.tax-tag {
+  font-size: 14px;
+}
